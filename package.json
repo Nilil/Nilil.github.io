@@ -1,0 +1,23 @@
+{
+  "name": "trinity-bootstrap",
+  "version": "1.0.0",
+  "description": "Welcome to my Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilil/nilil.github.io.git"
+  },
+  "keywords": [],
+  "author": "Nilthon Enciso <nilthonec@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nilil/nilil.github.io/issues"
+  },
+  "homepage": "https://github.com/Nilil/nilil.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+}
+
+.container-fluid {
+  border: 1px solid lightpink;
+}
+
+.bg-link {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.foot {
+  margin-top: 10px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

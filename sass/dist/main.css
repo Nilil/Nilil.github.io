@@ -9,7 +9,10 @@ body {
 
 .bg-link {
   background-color: lightblue;
-  padding: 20px;
+}
+
+.logos {
+  block-size: 50px;
 }
 
 .foot {

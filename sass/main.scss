@@ -10,12 +10,26 @@ body {
   background-color: lightblue;
 }
 
-.logos {
-  block-size: 50px;
+.header-logo {
+  block-size: 40px;
+}
+
+.hero {
+  block-size: 100%;
+  border: 5px solid green;
 }
 
 .foot {
-  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+
+  &-logos {
+    block-size: 40px;
+  }
+  }
+
+  .card-image {
+    block-size: 200px;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

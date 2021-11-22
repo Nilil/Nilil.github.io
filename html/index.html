@@ -12,85 +12,67 @@
   <link rel="stylesheet" href="../sass/dist/main.css">
 
   <title>Hello, world!</title>
-<!-- div.container-fluid>div.row>div.col -->
 </head>
 
 <body>
   
   <!-- Inicia HEADER -->
   <header>
-    <nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-auto">NEC</div>
+    <nav class="container-fluid">
+      <div class="row">
+        <div class="col-auto my-3">
+          <img class="header-logo me-2" src="../resources/webcomponent.svg" alt="Logo">
+          <span>NEC</span>
         </div>
       </div>
     </nav>
   </header>
-  
-  <main>
+
+  <!-- Hero -->
+  <main class="hero">
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-12">
-          <h1 class="text-center">Nilthon Enciso Cantero</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-auto offset-2">
+        <div class="col-12 col-lg-6 offset-lg-1 text-center text-lg-start my-5">
+          <h1>Nilthon Enciso Cantero</h1>
           <h2>Front-End Developer</h2>
         </div>
       </div>
 
       <div class="row">
-        <div class="bg-link col-8 offset-2 p-4 my-3">
-          <div class="col offset-3">
-            <a href="#" class="btn btn-primary">Proyectos</a>
-          </div>
+        <div class="bg-link col-8 col-lg-6 offset-2 offset-lg-4 p-5 my-5 rounded-2 d-flex justify-content-center">
+            <a href="#" class="btn btn-primary p-4">Proyectos</a>
         </div>
       </div>
+
     </div>
   </main>
 
-  <section>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h2 class="text-center">Colaboremos</h2>
-        </div>
-        <div class="row d-flex justify-content-around">
-          <figure class="col-2">
-            <a href="">
-              <img class="logos" src="../resources/github.svg" alt="Github">
-            </a>
-          </figure>
-          <figure class="col-2">
-            <a href="">
-              <img class="logos" src="../resources/linkedin.svg" alt="LinkedIn">
-            </a>
-          </figure>
-          <figure class="col-2">
-            <a href="">
-              <img class="logos" src="../resources/twitter.svg" alt="Twitter">
-            </a>
-          </figure>
-          <figure class="col-2">
-            <a href="">
-              <img class="logos" src="../resources/gmail.svg" alt="Gmail">
-            </a>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Inicia Footer -->
-  <footer class="foot">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-auto offset-2">Chutzpa & follow the fear!</div>
-      </div>
+  <footer class="foot container-fluid">
+    <div class="row d-flex justify-content-around my-3">
+
+      <figure class="col-3">
+        <a href="">
+          <img class="foot-logos" src="../resources/github.svg" alt="Github">
+        </a>
+      </figure>
+      <figure class="col-3">
+        <a href="">
+          <img class="foot-logos" src="../resources/linkedin.svg" alt="LinkedIn">
+        </a>
+      </figure>
+      <figure class="col-3">
+        <a href="">
+          <img class="foot-logos" src="../resources/twitter.svg" alt="Twitter">
+        </a>
+      </figure>
+      <figure class="col-3">
+        <a href="">
+          <img class="foot-logos" src="../resources/gmail.svg" alt="Gmail">
+        </a>
+      </figure>
+
     </div>
   </footer>
 

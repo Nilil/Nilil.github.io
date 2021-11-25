@@ -1,29 +1,19 @@
 @charset "UTF-8";
-body {
-  background-color: grey;
-}
-
-.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-  border: 1px solid lightpink;
-}
-
-.bg-link {
-  background-color: lightblue;
-}
-
-.header-logo {
+.header-logo > img {
   block-size: 40px;
 }
-
-.hero {
-  block-size: 100%;
-  border: 5px solid green;
+.header-logo > a {
+  text-decoration: none;
 }
 
-.foot {
-  position: absolute;
-  bottom: 0;
+.card {
+  max-width: 450px;
+  height: 450px;
 }
+.card-image {
+  block-size: 200px;
+}
+
 .foot-logos {
   block-size: 40px;
 }

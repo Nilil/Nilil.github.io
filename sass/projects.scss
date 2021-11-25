@@ -1,0 +1,31 @@
+.header-logo {
+
+  &>img {
+    block-size: 40px;
+  }
+
+  &>a {
+    text-decoration: none;
+  }
+}
+
+.card {
+  max-width: 450px;
+  height: 450px;
+
+  &-image {
+    block-size: 200px;
+  }
+}
+
+.foot {
+  // position: absolute;
+  // bottom: 0;
+
+  &-logos {
+    block-size: 40px;
+  }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

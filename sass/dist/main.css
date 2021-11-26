@@ -1,31 +1,30 @@
 @charset "UTF-8";
-body {
-  background-color: grey;
-}
-
-.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-  border: 1px solid lightpink;
-}
-
-.bg-link {
-  background-color: lightblue;
-}
-
-.header-logo {
-  block-size: 40px;
+.head {
+  background-color: #BAC0E0;
 }
 
 .hero {
-  block-size: 100%;
-  border: 5px solid green;
+  background-color: #DAE6F7;
 }
 
 .foot {
-  position: absolute;
-  bottom: 0;
+  block-size: 25px;
+  background-color: #BAC0E0;
 }
-.foot-logos {
+
+.logos {
   block-size: 40px;
+}
+
+.card {
+  block-size: 450px;
+  max-block-size: 450px;
+}
+.card-body {
+  background-color: #BAC0E0;
+}
+.card-image {
+  block-size: 200px;
 }
 
 /*!

@@ -12,19 +12,14 @@ Code: [Repository](https://github.com/Nilil/portfolio "Repository")
 
 ### Built whit
 
-- React
+- Bootstrap
 
-- JSX
-
-- Router Dom
+- HTML
 
 - SASS
 
 	- Mobile First
 
-	- BEM
-
-- HTML
 
 ### **Collaboration**
 

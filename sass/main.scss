@@ -1,9 +1,12 @@
 $color-primary-bg: #DAE6F7;
 $color-secondary-bg: #BAC0E0;
+$color-btn: #424963;
+$color-btn-hover: #686E8B;
+$color-border: #36404E;
 
-// $color-btn: #424963;
-// $color-btn-hover: #686E8B;
+$theme-colors: ("primary": $color-btn-hover, );
 
+$border-color: $color-border;
 
 .head {
   background-color: $color-secondary-bg;
@@ -14,7 +17,7 @@ $color-secondary-bg: #BAC0E0;
 }
 
 .foot {
-  block-size: 25px;
+  block-size: 2vh;
   background-color: $color-secondary-bg;
 }
 

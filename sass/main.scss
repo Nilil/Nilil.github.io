@@ -14,10 +14,13 @@ $border-color: $color-border;
 
 .hero {
   background-color: $color-primary-bg;
+&-card {
+  background-color: lightblue;
+}
 }
 
 .foot {
-  block-size: 2vh;
+  block-size: auto;
   background-color: $color-secondary-bg;
 }
 

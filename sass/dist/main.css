@@ -6,9 +6,12 @@
 .hero {
   background-color: #DAE6F7;
 }
+.hero-card {
+  background-color: lightblue;
+}
 
 .foot {
-  block-size: 2vh;
+  block-size: auto;
   background-color: #BAC0E0;
 }
 

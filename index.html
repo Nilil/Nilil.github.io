@@ -17,51 +17,62 @@
 <body>
   
   <!-- Inicia HEADER -->
-  <header class="head border-bottom border-3">
-    <nav class="container-fluid">
-      <div class="row">
+  <header>
 
-        <span class="col-4 my-3">
-          <h4>
-            Nilthon Enciso Cantero
-          </h4>
-        </span>
+    <!-- Uso de Nav bar -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
 
-        <nav class="col-8 my-3 d-flex justify-content-around">
-          <figure >
-            <a href="https://github.com/Nilil" target="_blank">
-              <img class="logos" src="./resources/icons/github.svg" alt="Github">
-            </a>
-          </figure>
-          <figure >
-            <a href="https://www.linkedin.com/in/nilec/" target="_blank">
-              <img class="logos" src="./resources/icons/linkedin.svg" alt="LinkedIn">
-            </a>
-          </figure>
-          <figure >
-            <a href="https://twitter.com/NilthonEC" target="_blank">
-              <img class="logos" src="./resources/icons/twitter.svg" alt="Twitter">
-            </a>
-          </figure>
-          <figure >
-            <a href="mailto:nilthonec@gmail.com" target="_blank">
-              <img class="logos" src="./resources/icons/gmail.svg" alt="Gmail">
-            </a>
-          </figure>
-        </nav>
-        
+        <!-- Uso de boton desplegable -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+
   </header>
 
   <!-- Inician Cartas -->
-  <main class="hero d-flex flex-column align-items-center container-fluid">
+  <main class="hero container-fluid">
 
     <h1 class="my-3">Proyectos</h1>
 
     <div class="row">
 
-      <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./resources/images/friends.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <span class="badge rounded-pill m-1 p-2 bg-primary">JSX</span>
+                <span class="badge rounded-pill m-1 p-2 bg-primary">React</span>
+                <span class="badge rounded-pill m-1 p-2 bg-primary">Rest API</span>
+                <span class="badge rounded-pill m-1 p-2 bg-primary">SCSS</span>
+                <span class="badge rounded-pill m-1 p-2 bg-primary">Mobile Only</span>
+                <h5 class="card-title my-3 fw-bold">Friends Finder</h5>
+                <p class="card-text my-3">Badge reactivo al formulario y API para mostrar usuarios.</p>
+                <div class="card-buttons d-flex justify-content-evenly">
+                  <a href="https://react-19.vercel.app/" class="btn btn-primary fw-bold">Live</a>
+                  <a href="https://github.com/Nilil/react-register" class="btn btn-primary fw-bold">Repository</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
         <div class="card border border-3">
           <img src="./resources/images/friends.png" class="card-img-top card-image" alt="Friends Finder">
           <div class="card-body">
@@ -78,7 +89,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
         
     <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
       <div class="card border border-3">
@@ -155,14 +166,41 @@
 
   <!-- Inicia Footer -->
   <footer class="foot container-fluid border-top border-3">
+      <div class="row">
+
+        <nav class="col-12 my-3 d-flex justify-content-around">
+          <figure >
+            <a href="https://github.com/Nilil" target="_blank">
+              <img class="logos" src="./resources/icons/github.svg" alt="Github">
+            </a>
+          </figure>
+          <figure >
+            <a href="https://www.linkedin.com/in/nilec/" target="_blank">
+              <img class="logos" src="./resources/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+          </figure>
+          <figure >
+            <a href="https://twitter.com/NilthonEC" target="_blank">
+              <img class="logos" src="./resources/icons/twitter.svg" alt="Twitter">
+            </a>
+          </figure>
+          <figure >
+            <a href="mailto:nilthonec@gmail.com" target="_blank">
+              <img class="logos" src="./resources/icons/gmail.svg" alt="Gmail">
+            </a>
+          </figure>
+        </nav>
+        
+      </div>
   </footer>
 
-    <script type="module">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- <script type="module">
     import { Toast } from 'bootstrap.esm.min.js'
 
     Array.from(document.querySelectorAll('.toast'))
       .forEach(toastNode => new Toast(toastNode))
-  </script>
+  </script> -->
 
 </body>
 

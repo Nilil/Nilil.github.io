@@ -29,12 +29,12 @@ $border-color: $color-border;
 }
 
 .card {
-  block-size: 450px;
-  max-block-size: 450px;
+  // block-size: 450px;
+  // max-block-size: 450px;
 
-  &-body {
-    background-color: $color-secondary-bg;
-  }
+  // &-body {
+  //   background-color: $color-secondary-bg;
+  // }
 
   &-image {
     block-size: 200px;

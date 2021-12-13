@@ -19,13 +19,6 @@
   block-size: 40px;
 }
 
-.card {
-  block-size: 450px;
-  max-block-size: 450px;
-}
-.card-body {
-  background-color: #BAC0E0;
-}
 .card-image {
   block-size: 200px;
 }

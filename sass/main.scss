@@ -4,7 +4,8 @@ $color-btn: #424963;
 $color-btn-hover: #686E8B;
 $color-border: #36404E;
 
-$theme-colors: ("primary": $color-btn-hover, );
+$theme-colors: ("primary": $color-btn-hover,
+  "secondary": lightpink, );
 
 $border-color: $color-border;
 
@@ -16,6 +17,13 @@ $border-color: $color-border;
   background-color: $color-primary-bg;
 &-card {
   background-color: lightblue;
+}
+&-image {
+  background-color: purple;
+
+  &>img {
+    block-size: 90%;
+  }
 }
 }
 

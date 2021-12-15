@@ -11,55 +11,54 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./sass/dist/main.css">
 
-  <title>Nilthon EC</title>
+  <title>Nilthon Enciso Cantero</title>
 </head>
 
 <body>
   
   <!-- Inicia HEADER -->
-  <header>
+  <header class="head">
 
     <!-- Nav bar -->
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <!-- Boton desplegable -->
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-            <li><a class="dropdown-item active" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li>
-          </ul>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nilthon Enciso Cantero</a>
+            <h2>|</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#proyects">Proyectos</a>
+              <a class="nav-link" href="#contact">Contacto</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
   </header>
 
   <!-- Inician Cartas -->
-  <main class="hero container-fluid">
+  <main class="hero container-fluid py-4 bg-primary bg-dark" id="proyects">
 
-    <h2 class="my-3">Proyectos</h2>
+    <h2 class="text-center">Proyectos</h2>
+
+    <!-- Proyecto 1 -->
 
     <!-- Tarjeta -->
-    <div class="card">
-      <!-- Imagen -->
+    <div class="card my-4">
       <div class="row g-0">
-        <div class="col-md-7 hero-image d-flex align-items-center justify-content-center">
-          <img src="./resources/images/friends.png" class="img-fluid rounded" alt="...">
+        <!-- Imagen -->
+        <div class="col-sm-7 hero-image d-flex align-items-center justify-content-center">
+          <img src="./resources/images/friends.png" class="img-fluid rounded" alt="Friends Finder">
         </div>
         <!-- Texto -->
-        <div class="col-md-5 d-flex align-items-center">
+        <div class="col-sm-5 d-flex align-items-center">
           <div class="card-body">
             <h3 class="card-title my-3 fw-bold">Friends Finder</h3>
             <!-- Badges -->
-            <div class="my-3 d-flex justify-content-around">
+            <div class="my-3 d-flex flex-wrap justify-content-around">
               <span class="badge rounded-pill p-2 bg-primary">JSX</span>
               <span class="badge rounded-pill p-2 bg-primary">React</span>
               <span class="badge rounded-pill p-2 bg-primary">Rest API</span>
@@ -70,108 +69,144 @@
             <!-- Links -->
             <div class="card-buttons d-flex justify-content-evenly">
               <a href="https://react-19.vercel.app/" class="btn btn-secondary fw-bold col-5">Live</a>
-              <a href="https://github.com/Nilil/react-register" class="btn btn-secondary fw-bold col-5">Repository</a>
+              <a href="https://github.com/Nilil/react-register" class="btn btn-outline-secondary fw-bold col-5">Repository</a>
             </div>
-
           </div>
         </div>
+
       </div>
     </div>
 
-      <!-- <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
-        <div class="card border border-3">
-          <img src="./resources/images/friends.png" class="card-img-top card-image" alt="Friends Finder">
-          <div class="card-body">
-            <span class="badge rounded-pill m-1 p-2 bg-primary">JSX</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">React</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">Rest API</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">SCSS</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">Mobile Only</span>
-            <h5 class="card-title my-3 fw-bold">Friends Finder</h5>
-            <p class="card-text my-3">Badge reactivo al formulario y API para mostrar usuarios.</p>
-            <div class="card-buttons d-flex justify-content-evenly">
-              <a href="https://react-19.vercel.app/" class="btn btn-primary fw-bold">Live</a>
-              <a href="https://github.com/Nilil/react-register" class="btn btn-primary fw-bold">Repository</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-<!--         
-    <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
-      <div class="card border border-3">
-        <img src="./resources/images/game.png" class="card-img-top card-image" alt="Click Game">
-        <div class="card-body">
-          <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
-          <span class="badge rounded-pill m-1 p-2 bg-primary">HTML</span>
-          <span class="badge rounded-pill m-1 p-2 bg-primary">Mobile Only</span>
-          <h5 class="card-title my-3 fw-bold">Click Game</h5>
-          <p class="card-text my-3">¿Puedes juntar los 5 puntos?.</p>
-          <div class="card-buttons d-flex justify-content-evenly">
-            <a href="https://animated-css-game.vercel.app/" class="btn btn-primary fw-bold">Live</a>
-            <a href="https://github.com/Nilil/animated_css_game" class="btn btn-primary fw-bold">Repository</a>
-          </div>
-        </div>
-      </div>
-    </div>  
+    <!-- Proyecto 2 -->
 
-      <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
-        <div class="card border border-3">
-          <img src="./resources/images/webcomponent.png" class="card-img-top card-image" alt="Selling Card (Webcomponents)">
+    <!-- Tarjeta -->
+    <div class="card my-4">
+      <div class="row g-0">
+        <!-- Imagen -->
+        <div class=" col-sm-7 hero-image d-flex align-items-center justify-content-center">
+          <img src="./resources/images/game.png" class="img-fluid rounded" alt="Click Game">
+        </div>
+        <!-- Texto -->
+        <div class="col-sm-5 d-flex align-items-center">
           <div class="card-body">
-            <span class="badge rounded-pill m-1 p-2 bg-primary">JS</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">CSS</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">HTML</span>
-            <h5 class="card-title my-3 fw-bold">Selling Card (Webcomponents)</h5>
+            <h3 class="card-title my-3 fw-bold">Click Game</h3>
+            <!-- Badges -->
+            <div class="my-3 d-flex flex-wrap justify-content-around">
+              <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">HTML</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">Mobile Only</span>
+            </div>
+            <p class="card-text my-3">¿Puedes juntar los 5 puntos?</p>
+            <!-- Links -->
+            <div class="card-buttons d-flex justify-content-evenly">
+              <a href="https://animated-css-game.vercel.app/" class="btn btn-secondary fw-bold col-5">Live</a>
+              <a href="https://github.com/Nilil/animated_css_game" class="btn btn-outline-secondary fw-bold col-5">Repository</a>
+              </div>
+              </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+
+    <!-- Tarjeta -->
+    <div class="card my-4">
+      <div class="row g-0">
+        <!-- Imagen -->
+        <div class="col-sm-7 hero-image d-flex align-items-center justify-content-center">
+          <img src="./resources/images/webcomponent.png" class="img-fluid rounded" alt="Selling Card (Webcomponents)">
+        </div>
+        <!-- Texto -->
+        <div class="col-sm-5 d-flex align-items-center">
+          <div class="card-body">
+            <h3 class="card-title my-3 fw-bold">Selling Card (Webcomponents)</h3>
+            <!-- Badges -->
+            <div class="my-3 d-flex flex-wrap justify-content-around">
+              <span class="badge rounded-pill m-1 p-2 bg-primary">JS</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">CSS</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">HTML</span>
+            </div>
             <p class="card-text my-3">Con variables modificables para usarse como Webcomponent.</p>
+            <!-- Links -->
             <div class="card-buttons d-flex justify-content-evenly">
-              <a href="https://basic-card-web-component.vercel.app/" class="btn btn-primary fw-bold">Live</a>
-              <a href="https://github.com/Nilil/basic-card_Web-Component" class="btn btn-primary fw-bold">Repository</a>
+              <a href="https://basic-card-web-component.vercel.app/" class="btn btn-secondary fw-bold col-5">Live</a>
+              <a href="https://github.com/Nilil/basic-card_Web-Component"
+                class="btn btn-outline-secondary fw-bold col-5">Repository</a>
             </div>
           </div>
         </div>
+
+      </div>
       </div>
 
-      <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
-        <div class="card border border-3">
-          <img src="./resources/images/columns.png" class="card-img-top card-image" alt="Column Card">
+    <!-- Proyecto 4 -->
+
+    <!-- Tarjeta -->
+    <div class="card my-4">
+      <div class="row g-0">
+        <!-- Imagen -->
+        <div class="col-sm-7 hero-image d-flex align-items-center justify-content-center">
+          <img src="./resources/images/columns.png" class="img-fluid rounded" alt="Column Card">
+        </div>
+        <!-- Texto -->
+        <div class="col-sm-5 d-flex align-items-center">
           <div class="card-body">
-            <span class="badge rounded-pill m-1 p-2 bg-primary">PUG</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
-            <h5 class="card-title my-3 fw-bold">Column Card</h5>
+            <h3 class="card-title my-3 fw-bold">Column Card</h3>
+            <!-- Badges -->
+            <div class="my-3 d-flex flex-wrap justify-content-around">
+              <span class="badge rounded-pill m-1 p-2 bg-primary">PUG</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
+            </div>
             <p class="card-text my-3">Tarjeta creada con uso de Grid.</p>
+            <!-- Links -->
             <div class="card-buttons d-flex justify-content-evenly">
-              <a href="https://fm-3-column-cards.vercel.app/" class="btn btn-primary fw-bold">Live</a>
-              <a href="https://github.com/Nilil/FM-3_column-cards" class="btn btn-primary fw-bold">Repository</a>
+              <a href="https://fm-3-column-cards.vercel.app/" class="btn btn-secondary fw-bold col-5">Live</a>
+              <a href="https://github.com/Nilil/FM-3_column-cards" class="btn btn-outline-secondary fw-bold col-5">Repository</a>
             </div>
           </div>
         </div>
+
+      </div>
       </div>
 
-      <div class="col-12 col-md-6 col-xl-4 my-3 d-flex justify-content-center">
-        <div class="card border border-3">
-          <img src="./resources/images/stats.png" class="card-img-top card-image" alt="Stats Card">
+    <!-- Proyecto 5 -->
+
+    <!-- Tarjeta -->
+    <div class="card mt-4">
+      <div class="row g-0">
+        <!-- Imagen -->
+        <div class="col-sm-7 hero-image d-flex align-items-center justify-content-center">
+          <img src="./resources/images/stats.png" class="img-fluid rounded" alt="Stats Card">
+        </div>
+        <!-- Texto -->
+        <div class="col-sm-5 d-flex flex-wrap align-items-center">
           <div class="card-body">
-            <span class="badge rounded-pill m-1 p-2 bg-primary">PUG</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
-            <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
-            <h5 class="card-title my-3 fw-bold">Stats Card</h5>
+            <h3 class="card-title my-3 fw-bold">Stats Card</h3>
+            <!-- Badges -->
+            <div class="my-3 d-flex justify-content-around">
+              <span class="badge rounded-pill m-1 p-2 bg-primary">PUG</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">SASS</span>
+              <span class="badge rounded-pill m-1 p-2 bg-primary">Responsive (Mobile First)</span>
+            </div>
             <p class="card-text my-3">Carta responsiva.</p>
+            <!-- Links -->
             <div class="card-buttons d-flex justify-content-evenly">
-              <a href="https://fm-1-stats-card.vercel.app/" class="btn btn-primary fw-bold">Live</a>
-              <a href="https://github.com/Nilil/FM-1_stats-card" class="btn btn-primary fw-bold">Repository</a>
+              <a href="https://fm-1-stats-card.vercel.app/" class="btn btn-secondary fw-bold col-5">Live</a>
+              <a href="https://github.com/Nilil/FM-1_stats-card" class="btn btn-outline-secondary fw-bold col-5">Repository</a>
             </div>
           </div>
         </div>
-      </div> -->
 
+      </div>
     </div>
 
   </main>
 
   <!-- Inicia Footer -->
-  <footer class="foot container-fluid border-top border-3">
+  <footer class="foot container-fluid bg-dark" id="contact">
       <div class="row">
 
         <nav class="col-12 my-3 d-flex justify-content-around">

@@ -1,51 +1,31 @@
-$color-primary-bg: #DAE6F7;
-$color-secondary-bg: #BAC0E0;
-$color-btn: #424963;
-$color-btn-hover: #686E8B;
-$color-border: #36404E;
+$color-dark: #414347;
+$color-light: #CED4E0;
+$color-primary: #5C6E94;
+$color-secondary: #888C94;
 
-$theme-colors: ("primary": $color-btn-hover,
-  "secondary": lightpink, );
-
-$border-color: $color-border;
-
-.head {
-  background-color: $color-secondary-bg;
-}
+$theme-colors: ("primary": $color-primary,
+  "secondary": $color-secondary,
+  "dark": $color-dark,
+  "light": $color-light);
 
 .hero {
-  background-color: $color-primary-bg;
-&-card {
-  background-color: lightblue;
-}
-&-image {
-  background-color: purple;
+  &-image {
 
-  &>img {
-    block-size: 90%;
-  }
+    &>img {
+      block-size: 90%;
+      inline-size: 90%;
+    }
 }
-}
-
-.foot {
-  block-size: auto;
-  background-color: $color-secondary-bg;
 }
 
 .logos {
   block-size: 40px;
 }
 
-.card {
-  // block-size: 450px;
-  // max-block-size: 450px;
+@media (max-width: 576px) {
 
-  // &-body {
-  //   background-color: $color-secondary-bg;
-  // }
-
-  &-image {
-    block-size: 200px;
+  .card {
+    block-size: 450px;
   }
 }
 

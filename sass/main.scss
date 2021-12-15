@@ -1,21 +1,16 @@
 $color-dark: #414347;
-$color-light: #CED4E0;
-$color-primary: #5C6E94;
-$color-secondary: #888C94;
+$color-light: #D4D6DB;
+$color-primary: #ADAFB4;
+$color-secondary: #636569;
 
 $theme-colors: ("primary": $color-primary,
   "secondary": $color-secondary,
   "dark": $color-dark,
   "light": $color-light);
 
-.hero {
-  &-image {
-
-    &>img {
-      block-size: 90%;
-      inline-size: 90%;
-    }
-}
+.hero-image img {
+  block-size: 90%;
+  inline-size: 90%;
 }
 
 .logos {
@@ -25,7 +20,7 @@ $theme-colors: ("primary": $color-primary,
 @media (max-width: 576px) {
 
   .card {
-    block-size: 450px;
+    block-size: 500px;
   }
 }
 
